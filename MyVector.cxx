@@ -95,6 +95,7 @@ void MyVector<T>::pop_back(int n)
     arr = temp;
 }
 
+//description
 template<class T>
 void MyVector<T>::clear()
 {
