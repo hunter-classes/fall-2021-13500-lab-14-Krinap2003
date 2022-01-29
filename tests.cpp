@@ -39,3 +39,24 @@ TEST_CASE("t2")
     t2.pop_back(1);
     CHECK(t2[1]== 6);
 }
+
+TEST_CASE("t3")
+{
+    MyVector<int>t3;
+    t3.push_back(0);
+    t3.push_back(1);
+    t3.push_back(2);
+    t3.push_back(3);
+    t3.push_back(4);
+    t3.push_back(5);
+    t3.push_back(6);
+    t3.push_back(7);
+    t3.push_back(8);
+    t3.push_back(9);
+    t3.push_back(10);
+    for(int i = 0; i <= 10; i++)
+    {
+        CHECK(t3[i] == i);
+    }
+    
+}
